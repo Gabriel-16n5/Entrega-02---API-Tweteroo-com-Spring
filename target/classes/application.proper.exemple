@@ -1,6 +1,6 @@
-spring.datasource.url= jdbc:postgresql://localhost:5432/tweteroo
+spring.datasource.url= jdbc:postgresql://localhost:5432/tastcamp
 spring.datasource.username=postgres
-spring.datasource.password=291999
+spring.datasource.password=postgres
 
 # Atualiza as tabelas conforme mudamos coisas na API
 spring.jpa.hibernate.ddl-auto=update 
