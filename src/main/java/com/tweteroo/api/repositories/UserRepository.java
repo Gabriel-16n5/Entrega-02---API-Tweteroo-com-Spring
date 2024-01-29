@@ -8,6 +8,6 @@ import com.tweteroo.api.models.UserModel;
 @Repository
 public interface UserRepository extends JpaRepository<UserModel, Long>  {
     
-    boolean existsByUserName(String name);
+    boolean existsByUserName(String userName);
 
 }

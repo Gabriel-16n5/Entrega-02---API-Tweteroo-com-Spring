@@ -12,17 +12,14 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 @Entity
-@Table(name = "user")
-public class UserModel {
+@Table(name = "tweet")
+public class TweetModel {
     
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @Column(nullable = false)
-    private String avatar;
-
-    @Column(length = 100, nullable = false)
-    private String username;
+    @Column(length = 280, nullable = false)
+    private String text;
 
 }
